@@ -3,7 +3,7 @@ Transform simultaneously all columns of a tabular or a selection of them
 
 basic examples...
 
-"```wl
+```wl
 tabInt = With[{cols = Alphabet[][[1 ;; 10]]}, \
 Tabular[Table[AssociationThread[cols, Table[RandomInteger[100], \
 Length[cols]]], 4]]]
@@ -17,4 +17,4 @@ BoxForm`ImageTag[\"Byte\",
 
  DefaultBaseStyle -> \"ImageGraphics\", ImageSizeRaw -> {301.5, 82.}, \
 
- PlotRange -> {{0, 301.5}, {0, 82.}}]\\)"
+ PlotRange -> {{0, 301.5}, {0, 82.}}]\\)
